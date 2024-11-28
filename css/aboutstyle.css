@@ -1,0 +1,46 @@
+body {
+    display: block;
+    background-image: url('../images/bgabout.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.container h1 {
+    padding-top: 50px;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.container p {
+    color: #ffffff;
+}
+
+
+footer {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #1f1f1f;
+    color: #000000;
+    margin-top: 20%;
+}
+
+footer i {
+    position: center;
+    font-size: 50px;
+    color: #E1306C;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.footer:hover a {
+    transform: scale(1.1);
+    color: #9b59b6;
+}
